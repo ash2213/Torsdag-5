@@ -32,8 +32,10 @@ public class GuessANumber {
                 System.out.println("you are correct");
             }else{if(input < rnd_number){
                 System.out.println("The correct number is higher");
+		    makeAGuess();
             }else {
                 System.out.println("the correct number is lower");
+		    makeAGuess();
 
             }
             makeAGuess();
